@@ -1,62 +1,58 @@
-<h2 align="center">Hi 👋! My name is Phan Van Linh and I'm a Full Stack Developer (AI) from Vietnam.</h2>
+<div align="center">
+  <h1>👋 Hi there! I'm Phan Van Linh</h1>
+  <h3>Full Stack Developer & AI Engineer from Vietnam 🇻🇳</h3>
+</div>
 
-<h3 align="center">Hi 👋! My name is Phan Van Linh and I'm a Full Stack Developer (AI) from Vietnam.</h2>
-
-### 📊 GitHub Stats
+### 📊 GitHub Analytics
 
 <div align="center">
   <img src="https://github-readme-stats.vercel.app/api?username=smickey080808&hide_title=false&hide_rank=false&show_icons=true&include_all_commits=true&count_private=true&disable_animations=false&theme=dracula&locale=en&hide_border=false" height="100" alt="stats graph"  />
   <img src="https://github-readme-stats.vercel.app/api/top-langs?username=smickey080808&locale=en&hide_title=false&layout=compact&card_width=320&langs_count=5&theme=dracula&hide_border=false" height="100" alt="languages graph"  />
 </div>
 
-### 🐍 Contribution Graph
+### 🐍 My Contribution Graph
 
-<br clear="both">
-
-<img src="https://raw.githubusercontent.com/smickey080808/smickey080808/output/snake.svg" alt="Snake animation" />
-
-###
-
----
-
-### 📈 Visitor Counter
 <div align="center">
-  <img src="https://profile-counter.glitch.me/smickey080808/count.svg?"  />
+  <img src="https://raw.githubusercontent.com/smickey080808/smickey080808/output/snake.svg" alt="Snake animation" />
 </div>
 
----
-### 💡 Development Principles
-<div align="left" style="background: #2D2D2D; padding: 20px; border-radius: 10px;">
-  <p>🎯 <b>A well-structured contract</b> saves more headaches than the best debugging tool.</p>
-  <p>🔁 <b>Test twice, deploy once</b> - Quality over speed</p>
-  <p>📚 <b>My portfolio</b> speaks louder than any proposal</p>
-  <p>🌱 <b>Stay curious</b>; today's skill is tomorrow's obsolete tool</p>
-  <p>💬 <b>Communication</b> is as crucial as clean code</p>
-  <p>🕊️ <b>Freelancing is freedom</b>—but only for the disciplined</p>
+### 📈 Profile Views
+
+<div align="center">
+  <img src="https://profile-counter.glitch.me/smickey080808/count.svg?" alt="Visitor Counter" />
 </div>
 
----
+### 💡 Development Philosophy
 
-### 🛠️ Tech Stack
+<div align="left" style="background: linear-gradient(145deg, #2D2D2D, #1a1a1a); padding: 25px; border-radius: 15px; box-shadow: 0 4px 15px rgba(0,0,0,0.2);">
+  <p>🎯 <b>Clean Architecture</b> - Writing maintainable and scalable code is an art</p>
+  <p>🔁 <b>Quality First</b> - Thorough testing ensures reliable deployments</p>
+  <p>📚 <b>Portfolio-Driven</b> - Let the work speak for itself</p>
+  <p>🌱 <b>Continuous Learning</b> - Embracing new technologies and methodologies</p>
+  <p>💬 <b>Clear Communication</b> - The bridge between great ideas and successful execution</p>
+  <p>🕊️ <b>Professional Freedom</b> - Discipline drives successful remote work</p>
+</div>
 
-#### 🌐 Frontend
+### 🛠️ Technical Expertise
+
+#### 🌐 Frontend Development
 <div align="left">
-  <img src="https://skillicons.dev/icons?i=react,nextjs,vue,angular,svelte,html,css,tailwind,redux,webpack" height="40" />
+  <img src="https://skillicons.dev/icons?i=react,nextjs,vue,angular,svelte,html,css,tailwind,redux,webpack" height="45" alt="Frontend Stack"/>
 </div>
 
-#### ⚙️ Backend
+#### ⚙️ Backend Development
 <div align="left">
-  <img src="https://skillicons.dev/icons?i=nodejs,express,nestjs,django,flask,fastapi,graphql,mysql,mongodb" height="40" />
+  <img src="https://skillicons.dev/icons?i=nodejs,express,nestjs,django,flask,fastapi,graphql,mysql,mongodb" height="45" alt="Backend Stack"/>
 </div>
 
-#### 🤖 AI/ML
+#### 🤖 AI & Machine Learning
 <div align="left">
-  <img src="https://skillicons.dev/icons?i=pytorch,tensorflow,opencv,python,cpp" height="40" />
+  <img src="https://skillicons.dev/icons?i=pytorch,tensorflow,opencv,python,cpp" height="45" alt="AI/ML Stack"/>
 </div>
 
 #### 🚀 DevOps & Tools
 <div align="left">
-  <img src="https://skillicons.dev/icons?i=docker,aws,azure,git,github,gitlab,linux,nginx,postman,vscode" height="40" />
+  <img src="https://skillicons.dev/icons?i=docker,aws,azure,git,github,gitlab,linux,nginx,postman,vscode" height="45" alt="DevOps Stack"/>
 </div>
 
 ---
