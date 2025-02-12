@@ -3,12 +3,10 @@ name: Generate snake animation
 on:
   schedule: # execute every 12 hours
     - cron: "* */12 * * *"
-
   workflow_dispatch:
-
   push:
     branches:
-    - master
+      - master
 
 jobs:
   generate:
@@ -18,6 +16,15 @@ jobs:
     timeout-minutes: 5
 
     steps:
+      - name: Full-year calendar
+        uses: lowlighter/metrics@latest
+        with:
+          filename: metrics.plugin.isocalendar.fullyear.svg
+          token: ${{ secrets.METRICS_TOKEN }}
+          base: ""
+          plugin_isocalendar: yes
+          plugin_isocalendar_duration: full-year
+
       - name: generate snake.svg
         uses: Platane/snk/svg-only@v3
         with:
