@@ -1,45 +1,33 @@
-name: Generate Snake
+name: Generate snake animation
 
 on:
+  schedule: # execute every 12 hours
+    - cron: "* */12 * * *"
+
+  workflow_dispatch:
+
   push:
     branches:
-      - main
-  schedule:
-    - cron: "0 1 * * *"
+    - master
 
-# The sequence of runs in this workflow:
 jobs:
-  # This workflow contains a single job called "build"
-  build:
-    # The type of runner that the job will run on
-    runs-on: ubuntu-latest
+  generate:
     permissions:
       contents: write
+    runs-on: ubuntu-latest
     timeout-minutes: 5
-    # Steps represent a sequence of tasks that will be executed as part of the job
-    steps:
-      # Checks repo under $GITHUB_WORKSHOP, so your job can access it
-      - uses: actions/checkout@v2
 
-      # Generates the snake
-      - uses: Platane/snk/svg-only@v3
-        id: snake-gif
+    steps:
+      - name: generate snake.svg
+        uses: Platane/snk/svg-only@v3
         with:
           github_user_name: ${{ github.repository_owner }}
-          # these next 2 lines generate the files on a branch called "output". This keeps the main branch from cluttering up.
-          outputs: |
-            dist/github-contribution-grid-snake.svg
-            dist/github-contribution-grid-snake-dark.svg?palette=github-dark
-        env:
-          GITHUB_TOKEN: ${{ secrets.TOKEN }}
+          outputs: dist/snake.svg?palette=github-dark
 
-      # show the status of the build. Makes it easier for debugging (if there's any issues).
-      - run: git status
 
-      # Push the images to the output branch
-      - uses: crazy-max/ghaction-github-pages@v3.1.0
+      - name: push snake.svg to the output branch
+        uses: crazy-max/ghaction-github-pages@v3.1.0
         with:
-          # the output branch we mentioned above
           target_branch: output
           build_dir: dist
         env:
