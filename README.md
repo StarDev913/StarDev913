@@ -6,20 +6,20 @@
 ### 📊 GitHub Analytics
 
 <div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=smickey080808&hide_title=false&hide_rank=false&show_icons=true&include_all_commits=true&count_private=true&disable_animations=false&theme=dracula&locale=en&hide_border=false" height="100" alt="stats graph"  />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs?username=smickey080808&locale=en&hide_title=false&layout=compact&card_width=320&langs_count=5&theme=dracula&hide_border=false" height="100" alt="languages graph"  />
+  <img src="https://github-readme-stats.vercel.app/api?username=StarDev913&hide_title=false&hide_rank=false&show_icons=true&include_all_commits=true&count_private=true&disable_animations=false&theme=dracula&locale=en&hide_border=false" height="100" alt="stats graph"  />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs?username=StarDev913&locale=en&hide_title=false&layout=compact&card_width=320&langs_count=5&theme=dracula&hide_border=false" height="100" alt="languages graph"  />
 </div>
 
 ### 🐍 My Contribution Graph
 
 <div align="center">
-  <img src="https://raw.githubusercontent.com/smickey080808/smickey080808/output/snake.svg" alt="Snake animation" />
+<img src="https://raw.githubusercontent.com/StarDev913/StarDev913/output/snake.svg" alt="Snake animation" />
 </div>
 
 ### 📈 Profile Views
 
 <div align="center">
-  <img src="https://profile-counter.glitch.me/smickey080808/count.svg?" alt="Visitor Counter" />
+  <img src="https://profile-counter.glitch.me/StarDev913/count.svg?" alt="Visitor Counter" />
 </div>
 
 ### 💡 Development Philosophy
