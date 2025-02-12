@@ -13,7 +13,6 @@
 ### 🐍 My Contribution Graph
 
 <div align="center">
-<img src="https://raw.githubusercontent.com/StarDev913/StarDev913/output/snake.svg" alt="Snake animation" />
 ![github contribution grid snake animation](https://raw.githubusercontent.com/StarDev913/StarDev913/output/snake-dark.svg#gh-dark-mode-only)
 ![github contribution grid snake animation](https://raw.githubusercontent.com/StarDev913/StarDev913/output/snake.svg#gh-light-mode-only)
 </div>
